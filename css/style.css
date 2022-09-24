@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(8, 7, 7);
+}
+.header{
+    z-index: 9;
+    background-color: rgb(13, 12, 12);
+    position: fixed;
+    height: 80px;
+    width: 100%;
+}
+.menu{
+    cursor: pointer;
+    width: 150px;
+    padding-top: 10px;
+}
+.logo ul{
+    padding-top: -20px;
+    margin-left: 60px;
+}
+.logo ul li img{
+    margin:-20px 0px 0px -20px;
+}
+.header ul~ul{
+    margin-left:280px;
+}
+.header ul li{
+    width: 90px;
+    float: left;
+    list-style: none;
+    margin: 40px 10px 10px 30px;
+}
+.header ul li>ul li{
+    display: none;
+    margin: 1px 0px 0px -50px;
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(32, 40, 75) ;
+    color: white;
+}
+.c1{
+margin:10px 0px 5px 60px;
+}
+.c1 li a{
+    color:rgb(0, 157, 255);
+    font-weight: 100;
+}
+.header ul li:hover>ul li{
+display: block;
+}
+a img{
+    margin-left: 0px;
+    height:20px;
+    width:40px;
+}
+ul li a{
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    margin-top: 300px;
+    text-decoration: none;
+    color: rgb(207, 216, 252);
+}
+ul li a:hover{
+    color: white;
+}
+button{
+    margin: 15px -60px 5px 370px;
+    background-color:rgba(245, 222, 179, 0);
+    outline: none;
+    height: 50px;
+    width: 300px;
+}
+input{
+    color: white;
+    padding:10px;
+}
+input::placeholder{
+    color:white;
+    font-size: larger;
+    padding-top: 10px;
+}.search-box input{
+    height: 35px;
+    width: 200px;
+    outline: none;
+    background-color:rgba(245, 222, 179, 0);
+}
+.search-movies:hover{
+    border-radius: 15px;
+    width: 570px;
+    margin: 0px 0px 0px -370px;
+    height: 35px;
+    border-bottom: 2px solid rgb(0, 157, 255);
+    border-right: 2px solid rgb(0, 157, 255);
+    width:570px;
+    transition: 1s;
+}
+.search-movies{
+    border-bottom: 2px solid white;
+    position: relative;
+    top:30px;
+    left:400px;
+}
+.search-png{
+    position: relative;
+    top: 25px;
+    left: 500px;
+}
+div+button{
+    position: relative;
+    top:0px;
+    left:-190px;
+    background-color: rgb(70, 132, 255);
+    text-align: center;
+   float: right;
+   color: white;
+   margin: -5px 0px 0px -10px;
+   font-size: 13px;
+   font-weight: bolder;
+   border:none;
+   border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+div+button:hover{
+    background-color:rgb(43, 112, 252) ;
+}
+button+button{
+    cursor: pointer;
+    position: relative;
+    top:-30px;
+    left:280px;
+    border: none;
+    color: white;
+}
+.slider{
+    border-radius: 20px;
+    height: 550px;
+    width: 96%;
+    position: relative;
+    top: 150px;
+    left:60px;
+    background-color: rgba(10, 10, 39, 0.556);
+    color: white;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 0px 0px 0px -20px; 
+}
+.slide-content{
+    width: 100%;
+    margin:0px 0px 0px 50px;
+    position: relative;
+    top: 80px;
+}
+.slider img{
+    position: relative;
+    top: -135px;
+    height: 550px;
+    width: 60%;
+    float:right;
+}
+.movie-title{
+    font-size: 55px;
+}
+.movie-des{
+    position: relative;
+    top: 40px;
+    text-align: justify;
+}
+.trends{
+    line-height: 50px;
+    margin: 220px 0px 0px 40px;
+    color:white;
+    height: 50px;
+    width: 96%;
+    float: left;
+    font-weight: 700;
+}
+.trending{
+    padding: 0px 0px 0px 30px;
+}
+.trend-gallery{
+    margin: 250px 0px 0px 40px;
+    height: 270px;
+    width: 96%;
+}
+.trending-image{
+    cursor: pointer;
+    display: flex;
+    height: 275x;
+    width: 150px;
+    position:relative;
+}
+.trending-image:hover{
+    border: 2px solid silver;
+    border-radius: 10px;
+    height: 250px;
+    width: 175px;
+    transition: 1s;
+}
+.trend-img li{
+    float: left;
+    list-style: none;
+    margin: 0px 14px 14px 14px ;
+}
+.sports{
+    line-height: 50px;
+    margin:0px 0px 0px 40px;
+    color:white;
+    height: 50px;
+    width: 96%;
+    float: left;
+    font-weight: 700;
+}
+.best-sports{
+    padding: 0px 0px 0px 30px;
+}
+.sport-gallery{
+    margin: 40px 0px 0px 40px;
+    height: 180px;
+    width: 96%;
+}
+.sport-image{
+    cursor: pointer;
+    display: flex;
+    height: 150px;
+    width:310px;
+}
+.sport-image:hover{
+    border: 2px solid silver;
+    border-radius: 10px;
+    height: 200px;
+    width: 375px;
+    transition: 1s;
+}
+.sport-img li{
+    float: left;
+    list-style: none;  
+    margin:10px 14px 14px 24px ;
+}
+footer{
+    color: white;
+}
+.media-button{
+    display:flex;
+    height: 50px;
+    width: 300px;
+    float:left;
+    margin-top: 100px;
+    margin-left: 950px;
+}
+.media-button:hover{
+    color:white ;
+}
+span{
+    margin-left: 70px;
+}
+svg{
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+}
+.media-button a{
+    color: white;
+    text-decoration: none;
+}
+footer h4{
+    float: left;
+   margin: 100px 0px 20px 60px;
+   text-align:left;
+}
